@@ -22,9 +22,6 @@
     <Filter Include="Header Files\imgui">
       <UniqueIdentifier>{37eb4c12-1d79-4ee3-a862-c5f07c504fc6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\assests">
-      <UniqueIdentifier>{9c2ca573-50c6-47a4-b7ea-f7f51f9e987f}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -118,13 +115,5 @@
     <None Include="path.vert">
       <Filter>Source Files</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\OneDrive\Desktop\g1.png">
-      <Filter>Source Files\assests</Filter>
-    </Image>
-    <Image Include="..\..\..\..\OneDrive\Desktop\g2.png">
-      <Filter>Source Files\assests</Filter>
-    </Image>
   </ItemGroup>
 </Project>

@@ -163,10 +163,6 @@
     <None Include="shader.frag" />
     <None Include="shader.vert" />
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\OneDrive\Desktop\g1.png" />
-    <Image Include="..\..\..\..\OneDrive\Desktop\g2.png" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
