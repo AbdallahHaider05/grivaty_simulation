@@ -2,7 +2,7 @@
 
 A high-performance 2D physics engine built from scratch using **C++** and **OpenGL**. This project simulates gravitational attraction between celestial bodies using Newton’s Law of Universal Gravitation, featuring real-time orbital tracing, mass merging, and an interactive control dashboard.
 
-![Simulation Preview](assests/g1.png)
+![Simulation Preview](assests/ScreenRecording2026-08-03at3.10.17PM-ezgif.com-optimize.gif)
 
 ## Features
 
