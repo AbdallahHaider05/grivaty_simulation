@@ -29,44 +29,5 @@ A high-performance 2D physics engine built from scratch using **C++** and **Open
 | :---: | :---: |
 | ![View 1](assests/g1.png) | ![View 2](assests/g2.png) |
 
-## Technical Architecture
 
-### 1. Physics Integration
-The simulation uses a discrete time-step integration. In each frame:
-1.  **Force Accumulation:** Each body calculates the gravitational pull from all other active bodies.
-2.  **Velocity Update:** $v = v + a \cdot \Delta t$
-3.  **Position Update:** $p = p + v \cdot \Delta t$
-
-### 2. Rendering Strategy
-* **Instancing:** A single circle mesh is defined in a VAO, and all planets are drawn in one call using `glDrawArraysInstanced`.
-* **Data Buffering:** Masses, positions, and colors are sent to the GPU as instance attributes, minimizing CPU-GPU overhead.
-
-## ⚙️ Installation & Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/yourusername/gravity-simulation.git](https://github.com/yourusername/gravity-simulation.git)
-    cd gravity-simulation
-    ```
-
-2.  **Dependencies:**
-    Ensure you have `GLFW` and `OpenGL` development headers installed on your system.
-
-3.  **Assets:**
-    Make sure the following shader files are in your executable directory:
-    * `shader.vert` / `shader.frag` (For bodies)
-    * `path.vert` (For orbital lines)
-
-4.  **Build:**
-    Compile using your preferred IDE (VS Code with CMake or MSVC).
-
-## 🎮 Controls
-* **Left Mouse Drag:** Pan through the universe.
-* **Scroll Wheel:** Zoom in/out.
-* **UI Panel:** * Click **Follow** to lock the camera on an object.
-    * Adjust **Time Factor** to speed up or slow down the simulation.
-    * Modify **Mass** to see real-time changes in gravity and size.
-
----
-
-Developed with ❤️ using C++ and OpenGL.
+Developed by abdallah haider using C++ and OpenGL.
